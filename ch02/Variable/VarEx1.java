@@ -1,5 +1,5 @@
 package ch02.Variable;
-
+//변수 선언 및 초기화
 public class VarEx1 {
 
 	public static void main(String[] args) {
