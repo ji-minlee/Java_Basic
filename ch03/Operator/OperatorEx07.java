@@ -1,6 +1,6 @@
 package ch03.Operator;
 
-public class OperatorEx7 {
+public class OperatorEx07 {
 
 	public static void main(String[] args) {
 		int a = 1_000_000;
