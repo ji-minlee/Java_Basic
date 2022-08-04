@@ -3,18 +3,26 @@ package ch03.Operator;
 public class OperatorEx10 {
 
 	public static void main(String[] args) {
-		int x = 10;
-		int y = 8;
-		
-		System.out.printf("%d를 %d로 나누면, %n", x, y);
-		System.out.printf("몫은 %d이고, 나머지는 %d입니다.%n", x/y, x%y);
-		
-		
-		
-		System.out.println(-10%8);	//음수 허용 but 부호는 무시
-		System.out.println(10%8);
-		System.out.println(-10%-8);
+		char c = 'a';
+		for (int i = 0; i < 26; i++) {
+			System.out.print(c++);	//'a'부터 26개의 문자를 출력
+		}
 
+		System.out.println();
+		
+		c = 'A';
+		for (int i = 0; i < 26; i++) {
+			System.out.print(c++);	//'A'부터 26개의 문자를 출력
+		}
+		
+		System.out.println();
+		
+		c = '0';
+		for (int i = 0; i < 10; i++ ) {
+			System.out.print(c++);	//'0'부터 10개의 문자를 출력
+		}
+		
+		System.out.println();
 	}
 
 }
