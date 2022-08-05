@@ -35,7 +35,7 @@ public class OperatorEx09 {
 		
 		
 		
-		char b1 = 'a';
+		
 //		char b2 = c1 + 1;		//컴파일 에러 발생
 		char b2 = 'a' + 1;		//리터럴 간의 연산이므로 컴파일 에러가 발생하지 않음
 		
